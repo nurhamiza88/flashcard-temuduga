@@ -14,26 +14,32 @@ st.set_page_config(
 df = pd.read_excel("Soalan Penemuduga.xlsx")
 
 DIMENSION_INFO = {
+
     "Komunikasi": {
         "weight": "30%",
-        "description": "Penilaian kejelasan, kelancaran, dan keberkesanan komunikasi lisan dan bukan lisan."
+        "description": "Penilaian kejelasan, kelancaran dan keberkesanan komunikasi lisan dan bukan lisan."
     },
+
     "Pengetahuan": {
         "weight": "10%",
-        "description": "Penilaian pengetahuan am, pengetahuan bidang, dan kepekaan terhadap soalan."
+        "description": "Penilaian pengetahuan am, pengetahuan bidang dan kepekaan terhadap soalan."
     },
+
     "Penguasaan Bahasa": {
         "weight": "10%",
         "description": "Penilaian kemahiran dalam bahasa utama dan bahasa kedua."
     },
-    "Personaliti / Sahsiah": {
+
+    "Personaliti dan Sahsiah": {
         "weight": "20%",
         "description": "Penilaian penampilan, kesopanan dan motivasi calon."
     },
-    "Kepimpinan & Ketrampilan": {
+
+    "Kepimpinan dan Ketrampilan": {
         "weight": "30%",
         "description": "Penilaian penglibatan dalam aktiviti dan kemahiran tambahan."
     }
+
 }
 
 # =====================
